@@ -751,9 +751,11 @@ background-color: #404bbf;
 .modal-input-comment {
   letter-spacing: 0.04em; 
   padding: 16px ;
-  resize: none;
+
   width: 100%;
-  min-height: 120px;
+  height: 120px;
+  resize: none;
+
   border: 1px solid rgba(46, 47, 66, 0.4); /* нейтральний */
   border-radius: 4px;
   padding: 12px 16px;
@@ -761,7 +763,7 @@ background-color: #404bbf;
   line-height: 1.5;
   color: #2e2f42;
   background-color: #fff;
-  resize: vertical; /* дозволяє змінювати висоту */
+
   transition: 
   border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
