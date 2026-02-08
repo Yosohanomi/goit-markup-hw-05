@@ -560,7 +560,105 @@
             </li>
           </ul>
         </div>
+
+        <form class="footer-form" name="subscribers_email" autocomplete="off">
+          <label for="footer-email" class="footer-label">Subscribe</label>
+          <div class="footer-thumb-form">
+            <input
+              placeholder="E-mail"
+              id="footer-email"
+              type="email"
+              class="footer-input"
+              autofocus
+            />
+            <button type="button" class="footer-form-btn">
+              Subscribe
+              <svg class="footer-btn-svg" width="24px" height="20px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
+
+    <!--MODAL WINDOW-->
+
+    <div class="backdrop is-open" data-modal>
+      <div class="modal">
+        <button class="close-btn">
+          <svg class="close-icon" width="8px" height="8px">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <h2 class="modal-title">
+          Leave your contacts and we will call you back
+        </h2>
+
+        <form class="modal-form" name="subscribers_name" autocomplete="off">
+          <label for="modal-name" class="modal-label">Name</label>
+          <div class="modal-thumb-form">
+            <input id="modal-name" type="text" class="modal-input" autofocus />
+            <svg class="modal-btn-svg" width="18px" height="24px">
+              <use href="./images/icons.svg#icon-human-modal"></use>
+            </svg>
+          </div>
+
+          <label for="modal-phone" class="modal-label">Phone</label>
+          <div class="modal-thumb-form">
+            <input id="modal-phone" type="tel" class="modal-input" autofocus />
+            <svg class="modal-btn-svg" width="18px" height="24px">
+              <use href="./images/icons.svg#icon-phone-modal"></use>
+            </svg>
+          </div>
+
+          <label for="modal-email" class="modal-label">Email</label>
+          <div class="modal-thumb-form">
+            <input
+              id="modal-email"
+              type="email"
+              class="modal-input"
+              autofocus
+            />
+            <svg class="modal-btn-svg" width="18px" height="24px">
+              <use href="./images/icons.svg#icon-email-modal"></use>
+            </svg>
+          </div>
+
+          <label for="textarea" class="modal-label modal-comment"
+            >Comment</label
+          >
+          <div class="modal-thumb-form">
+            <textarea
+              placeholder="Text input"
+              type="text"
+              id="textarea"
+              class="modal-input-comment"
+              required
+            ></textarea>
+          </div>
+
+          <div class="modal-thumb-confirm">
+            <input
+              type="checkbox"
+              required
+              id="modal-confirm"
+              name="terms"
+              class="modal-input-confirm"
+              autofocus
+            />
+            <label for="modal-confirm" class="modal-label-confirm">
+              <span class="custom-checkbox">
+                <svg width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a href="#" class="modal-confirm-link">Privacy Policy</a></label
+            >
+          </div>
+          <button type="button" class="modal-send">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
