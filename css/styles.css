@@ -857,13 +857,18 @@ background-color: #404bbf;
   background-color: #404bbf;
   border: none;
 }
-
+.modal-input-confirm:focus 
++ .modal-label-confirm 
+.custom-checkbox {
+  border-color: #404bbf;
+}
 .modal-input-confirm:checked 
 + .modal-label-confirm 
 .custom-checkbox 
 .check-svg {
   opacity: 1;
 }
+
 .modal-confirm-link {
   line-height: 1.33333;
   text-decoration: underline;
