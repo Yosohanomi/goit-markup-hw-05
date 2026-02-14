@@ -697,7 +697,7 @@ background-color: #404bbf;
 .modal-field {
   display: flex;
   flex-direction: column;
-  gap: 8px;   /* 8px між label та input */
+  gap: 4px;   /* 4px між label та input */
 }
 .modal-label {
   font-family: "Roboto", sans-serif;
@@ -810,8 +810,8 @@ background-color: #404bbf;
   justify-content: flex-start;
   flex-direction: row;
   gap: 8px;
-  /*margin-bottom: 16px;
-  margin-top: 16px; */
+  /*margin-bottom: 16px;*/
+  margin-top: 8px; 
 }
 
 /*.modal-input-confirm {
