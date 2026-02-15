@@ -699,7 +699,7 @@ background-color: #404bbf;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 12px; /* тепер між comment та i accept policy буде 12 пікселів +геп 4 пікселя = 16пікселів*/
+  gap: 8px; /* тепер між comment та i accept policy буде 12 пікселів +геп 4 пікселя = 16пікселів*/
   border-radius: 4px;
   width: 360px;
   height: 336px;
@@ -821,13 +821,13 @@ background-color: #404bbf;
   flex-direction: row;
   gap: 8px;
   /*margin-bottom: 16px;*/
-  margin-top: 8px; 
+  margin-top: 0; 
 }
 
 .modal-label-confirm {
   /* Відступ між лейблом конфірм та кнопкою */
   display: block; /* щоб margin-bottom працював на блоковому елементі */
-  margin-bottom: 24px; /* відступ до кнопки Send */
+  margin-bottom: 0; /* відступ до кнопки Send */
   
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -844,6 +844,7 @@ background-color: #404bbf;
 
   width: 16px;
   height: 16px;
+  margin: 0;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
