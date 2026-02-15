@@ -827,7 +827,7 @@ background-color: #404bbf;
 .modal-label-confirm {
   /* Відступ між лейблом конфірм та кнопкою */
   display: block; /* щоб margin-bottom працював на блоковому елементі */
-  margin-bottom: 0; /* відступ до кнопки Send */
+  margin-bottom: 16px; /* відступ до кнопки Send */
   
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -905,6 +905,7 @@ background-color: #404bbf;
   align-items: flex-start;
   justify-content: center;
   flex-direction: row;
+
   
   border-radius: 4px;
   padding-block: 16px;
